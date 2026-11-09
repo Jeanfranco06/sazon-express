@@ -344,3 +344,14 @@ mvn clean test
 1. **Almacenamiento volátil:** Los pedidos registrados residen en memoria RAM (`ConcurrentHashMap`); al reiniciar un microservicio se restablecen al estado inicial.
 2. **Puertos estáticos en tiempo de ejecución:** Cambiar el puerto `server.port` en Git requiere reiniciar el proceso cliente, ya que el servidor Tomcat embebido se enlaza durante la fase de inicialización.
 3. **Seguridad deshabilitada:** Para efectos didácticos y de exposición ágil, no se requiere autenticación ni tokens OAuth2/JWT para invocar `/actuator/refresh`.
+
+---
+
+## 12. Entregables Académicos y Documentación
+
+En la carpeta [`docs/`](docs/) se encuentran disponibles los materiales oficiales para la presentación y evaluación del proyecto:
+
+1. **Guía de Implementación en Word:** [`docs/Guia_Implementacion_Sazon_Express.docx`](docs/Guia_Implementacion_Sazon_Express.docx) — Miniguía paso a paso en formato editable (.docx) con diagramas, tablas comparativas, fragmentos de código y capturas oficiales de Spring Initializr.
+2. **Guía de Implementación en PDF:** [`docs/Guia_Implementacion_Sazon_Express.pdf`](docs/Guia_Implementacion_Sazon_Express.pdf) — Documento imprimible formal con tipografía corporativa y diseño editorial de alta calidad.
+3. **Presentación de Diapositivas:** [`docs/Presentacion_Sazon_Express.pptx`](docs/Presentacion_Sazon_Express.pptx) — Presentación oficial de exactamente **8 diapositivas** para la exposición universitaria ante el docente.
+4. **Evidencias Reales de Ejecución:** [`docs/evidencias/`](docs/evidencias/) — Respuestas JSON reales y logs generados durante la prueba completa de endpoints y recarga dinámica en caliente.
