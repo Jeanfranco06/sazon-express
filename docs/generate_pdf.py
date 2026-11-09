@@ -254,7 +254,7 @@ def build_pdf(output_pdf_path):
     story.append(Spacer(1, 10))
 
     # Incluir imágenes reales de evidencia de Initializr
-    evidencias_dir = r"D:\Proyects\microservicios\sazon-express\docs\evidencias"
+    evidencias_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "evidencias")
     img_cs = os.path.join(evidencias_dir, "creacion_proyecto_config_server.png")
     img_menu = os.path.join(evidencias_dir, "creacion_proyecto_menu_service.png")
 
@@ -516,7 +516,7 @@ def build_pdf(output_pdf_path):
         "# 1. Compilar todo el sistema<br/>"
         "mvn clean package -DskipTests<br/><br/>"
         "# 2. Iniciar Config Server (:8888)<br/>"
-        "java -Dspring.cloud.config.server.git.uri=file:///D:/Proyects/microservicios/sazon-express/config-repo -jar config-server/target/config-server-0.0.1-SNAPSHOT.jar<br/><br/>"
+        'java "-Dspring.cloud.config.server.git.uri=https://github.com/Jeanfranco06/sazon-express-config.git" -jar config-server\\target\\config-server-0.0.1-SNAPSHOT.jar<br/><br/>'
         "# 3. Iniciar clientes en consolas separadas (:8081, :8082, :8083)<br/>"
         "java -jar menu-service/target/menu-service-0.0.1-SNAPSHOT.jar<br/>"
         "java -jar pedido-service/target/pedido-service-0.0.1-SNAPSHOT.jar<br/>"
@@ -607,5 +607,6 @@ def build_pdf(output_pdf_path):
     print(f"Guía PDF generada exitosamente en: {output_pdf_path}")
 
 if __name__ == "__main__":
-    pdf_out = r"D:\Proyects\microservicios\sazon-express\docs\Guia_Implementacion_Sazon_Express.pdf"
+    docs_dir = os.path.dirname(os.path.abspath(__file__))
+    pdf_out = os.path.join(docs_dir, "Guia_Implementacion_Sazon_Express.pdf")
     build_pdf(pdf_out)

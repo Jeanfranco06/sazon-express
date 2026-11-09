@@ -510,7 +510,7 @@ public class MenuProperties {
 mvn clean package -DskipTests
 
 # Terminal 1: Iniciar Config Server (:8888)
-java -Dspring.cloud.config.server.git.uri=https://github.com/Jeanfranco06/sazon-express-config.git -jar config-server\\target\\config-server-0.0.1-SNAPSHOT.jar
+java "-Dspring.cloud.config.server.git.uri=https://github.com/Jeanfranco06/sazon-express-config.git" -jar config-server\\target\\config-server-0.0.1-SNAPSHOT.jar
 
 # Terminal 2: Iniciar Menu Service (:8081)
 java -jar menu-service\\target\\menu-service-0.0.1-SNAPSHOT.jar
@@ -569,6 +569,7 @@ java -jar promocion-service\\target\\promocion-service-0.0.1-SNAPSHOT.jar"""
     print(f"Guía Word generada exitosamente en: {output_path}")
 
 if __name__ == "__main__":
-    out_docx = r"D:\Proyects\microservicios\sazon-express\docs\Guia_Implementacion_Sazon_Express.docx"
-    evid_dir = r"D:\Proyects\microservicios\sazon-express\docs\evidencias"
+    docs_dir = os.path.dirname(os.path.abspath(__file__))
+    out_docx = os.path.join(docs_dir, "Guia_Implementacion_Sazon_Express.docx")
+    evid_dir = os.path.join(docs_dir, "evidencias")
     generate_word_guide(out_docx, evid_dir)
