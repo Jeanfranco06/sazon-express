@@ -1,0 +1,32 @@
+﻿{
+    "name":  "pedido-service",
+    "profiles":  [
+                     "default"
+                 ],
+    "label":  null,
+    "version":  "d84a4c1ca80bf249e03b01f85af21675e2358f21",
+    "state":  "",
+    "propertySources":  [
+                            {
+                                "name":  "file:///D:/Proyects/microservicios/sazon-express/config-repo/pedido-service.yml",
+                                "source":  {
+                                               "server.port":  8082,
+                                               "restaurante.pedidos.max-platos":  5,
+                                               "restaurante.pedidos.pedidos-habilitados":  true,
+                                               "restaurante.pedidos.tiempo-estimado-minutos":  20,
+                                               "restaurante.pedidos.mensaje":  "Tu pedido estÃ¡ siendo preparado"
+                                           }
+                            },
+                            {
+                                "name":  "file:///D:/Proyects/microservicios/sazon-express/config-repo/application.yml",
+                                "source":  {
+                                               "info.app.name":  "SazÃ³n Express",
+                                               "info.app.description":  "Sistema gastronÃ³mico con microservicios y Spring Cloud Config",
+                                               "info.app.version":  "1.0.0",
+                                               "info.app.author":  "SazÃ³n Express Team",
+                                               "management.endpoints.web.exposure.include":  "health,info,refresh",
+                                               "management.endpoint.health.show-details":  "always"
+                                           }
+                            }
+                        ]
+}

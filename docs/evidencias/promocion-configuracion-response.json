@@ -1,0 +1,7 @@
+﻿{
+    "habilitadas":  true,
+    "descuentoPorcentaje":  15,
+    "promocionDestacada":  "Combo familiar",
+    "mensaje":  "Aprovecha nuestras promociones",
+    "origen":  "Spring Cloud Config Server -\u003e Git: promocion-service.yml"
+}

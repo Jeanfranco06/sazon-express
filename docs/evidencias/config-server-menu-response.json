@@ -1,0 +1,32 @@
+﻿{
+    "name":  "menu-service",
+    "profiles":  [
+                     "default"
+                 ],
+    "label":  null,
+    "version":  "d84a4c1ca80bf249e03b01f85af21675e2358f21",
+    "state":  "",
+    "propertySources":  [
+                            {
+                                "name":  "file:///D:/Proyects/microservicios/sazon-express/config-repo/menu-service.yml",
+                                "source":  {
+                                               "server.port":  8081,
+                                               "restaurante.menu.nombre":  "Carta SazÃ³n Express",
+                                               "restaurante.menu.plato-destacado":  "Lomo saltado",
+                                               "restaurante.menu.mensaje":  "Disfruta nuestros sabores",
+                                               "restaurante.menu.mostrar-disponibles":  true
+                                           }
+                            },
+                            {
+                                "name":  "file:///D:/Proyects/microservicios/sazon-express/config-repo/application.yml",
+                                "source":  {
+                                               "info.app.name":  "SazÃ³n Express",
+                                               "info.app.description":  "Sistema gastronÃ³mico con microservicios y Spring Cloud Config",
+                                               "info.app.version":  "1.0.0",
+                                               "info.app.author":  "SazÃ³n Express Team",
+                                               "management.endpoints.web.exposure.include":  "health,info,refresh",
+                                               "management.endpoint.health.show-details":  "always"
+                                           }
+                            }
+                        ]
+}

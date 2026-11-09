@@ -1,0 +1,50 @@
+﻿[
+    {
+        "id":  1,
+        "cliente":  "Cliente Inicial",
+        "items":  [
+                      {
+                          "plato":  "Lomo saltado",
+                          "cantidad":  2,
+                          "precioUnitario":  38.00,
+                          "subtotal":  76.00
+                      },
+                      {
+                          "plato":  "Ceviche clÃ¡sico",
+                          "cantidad":  1,
+                          "precioUnitario":  42.00,
+                          "subtotal":  42.00
+                      }
+                  ],
+        "totalPlatos":  3,
+        "totalMonto":  118.00,
+        "estado":  "PREPARANDO",
+        "tiempoEstimadoMinutos":  20,
+        "mensajeEstado":  "Tu pedido estÃ¡ siendo preparado",
+        "fechaRegistro":  "2026-11-08T19:47:27.7024547"
+    },
+    {
+        "id":  2,
+        "cliente":  "Estudiante ExposiciÃ³n",
+        "items":  [
+                      {
+                          "plato":  "Lomo saltado",
+                          "cantidad":  2,
+                          "precioUnitario":  38.00,
+                          "subtotal":  76.00
+                      },
+                      {
+                          "plato":  "Ceviche clÃ¡sico",
+                          "cantidad":  1,
+                          "precioUnitario":  42.00,
+                          "subtotal":  42.00
+                      }
+                  ],
+        "totalPlatos":  3,
+        "totalMonto":  118.00,
+        "estado":  "EN_PREPARACION",
+        "tiempoEstimadoMinutos":  20,
+        "mensajeEstado":  "Tu pedido estÃ¡ siendo preparado",
+        "fechaRegistro":  "2026-11-08T19:47:46.2526598"
+    }
+]

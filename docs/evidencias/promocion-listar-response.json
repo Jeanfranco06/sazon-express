@@ -1,0 +1,26 @@
+﻿[
+    {
+        "id":  1,
+        "codigo":  "COMBO_FAMILIAR",
+        "titulo":  "Combo familiar",
+        "descripcion":  "1 Pollo a la brasa + papas familiares + gaseosa 1.5L",
+        "descuentoPorcentaje":  15,
+        "activa":  true
+    },
+    {
+        "id":  2,
+        "codigo":  "DUO_CRIOLLO",
+        "titulo":  "DÃºo Criollo",
+        "descripcion":  "Lomo saltado + AjÃ­ de gallina para 2 personas",
+        "descuentoPorcentaje":  10,
+        "activa":  true
+    },
+    {
+        "id":  3,
+        "codigo":  "ALMUERZO_EJECUTIVO",
+        "titulo":  "Almuerzo Ejecutivo",
+        "descripcion":  "Entrada + Plato de fondo + Bebida del dÃ­a",
+        "descuentoPorcentaje":  5,
+        "activa":  true
+    }
+]

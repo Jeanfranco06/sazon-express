@@ -1,0 +1,7 @@
+﻿{
+    "maxPlatos":  5,
+    "pedidosHabilitados":  true,
+    "tiempoEstimadoMinutos":  20,
+    "mensaje":  "Tu pedido estÃ¡ siendo preparado",
+    "origen":  "Spring Cloud Config Server -\u003e Git: pedido-service.yml"
+}

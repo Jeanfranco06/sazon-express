@@ -1,0 +1,12 @@
+﻿{
+    "mensaje":  "Especial marino de temporada",
+    "nombreDestacadoConfigurado":  "Ceviche clasico",
+    "plato":  {
+                  "id":  999,
+                  "nombre":  "Ceviche clasico",
+                  "categoria":  "Especialidad del Chef",
+                  "precio":  35.00,
+                  "disponible":  true
+              },
+    "nota":  "Plato destacado provisto dinÃ¡micamente por la configuraciÃ³n centralizada"
+}

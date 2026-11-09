@@ -1,0 +1,32 @@
+﻿{
+    "name":  "promocion-service",
+    "profiles":  [
+                     "default"
+                 ],
+    "label":  null,
+    "version":  "d84a4c1ca80bf249e03b01f85af21675e2358f21",
+    "state":  "",
+    "propertySources":  [
+                            {
+                                "name":  "file:///D:/Proyects/microservicios/sazon-express/config-repo/promocion-service.yml",
+                                "source":  {
+                                               "server.port":  8083,
+                                               "restaurante.promociones.habilitadas":  true,
+                                               "restaurante.promociones.descuento-porcentaje":  15,
+                                               "restaurante.promociones.promocion-destacada":  "Combo familiar",
+                                               "restaurante.promociones.mensaje":  "Aprovecha nuestras promociones"
+                                           }
+                            },
+                            {
+                                "name":  "file:///D:/Proyects/microservicios/sazon-express/config-repo/application.yml",
+                                "source":  {
+                                               "info.app.name":  "SazÃ³n Express",
+                                               "info.app.description":  "Sistema gastronÃ³mico con microservicios y Spring Cloud Config",
+                                               "info.app.version":  "1.0.0",
+                                               "info.app.author":  "SazÃ³n Express Team",
+                                               "management.endpoints.web.exposure.include":  "health,info,refresh",
+                                               "management.endpoint.health.show-details":  "always"
+                                           }
+                            }
+                        ]
+}

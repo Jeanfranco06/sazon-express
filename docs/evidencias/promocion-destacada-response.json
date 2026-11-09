@@ -1,0 +1,14 @@
+﻿{
+    "promocionesHabilitadas":  true,
+    "mensaje":  "Aprovecha nuestras promociones",
+    "promocionDestacada":  "Combo familiar",
+    "descuentoGeneralPorcentaje":  15,
+    "detalle":  {
+                    "id":  1,
+                    "codigo":  "COMBO_FAMILIAR",
+                    "titulo":  "Combo familiar",
+                    "descripcion":  "1 Pollo a la brasa + papas familiares + gaseosa 1.5L",
+                    "descuentoPorcentaje":  15,
+                    "activa":  true
+                }
+}

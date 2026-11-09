@@ -1,0 +1,8 @@
+﻿{
+    "precioOriginal":  50.00,
+    "porcentajeDescuentoAplicado":  15,
+    "montoDescuento":  7.50,
+    "precioFinal":  42.50,
+    "promocionesHabilitadas":  true,
+    "mensaje":  "Aprovecha nuestras promociones"
+}

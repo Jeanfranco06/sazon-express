@@ -1,0 +1,37 @@
+﻿[
+    {
+        "id":  1,
+        "nombre":  "Lomo saltado",
+        "categoria":  "Fondos",
+        "precio":  38.00,
+        "disponible":  true
+    },
+    {
+        "id":  2,
+        "nombre":  "AjÃ­ de gallina",
+        "categoria":  "Fondos",
+        "precio":  30.00,
+        "disponible":  true
+    },
+    {
+        "id":  3,
+        "nombre":  "Arroz con pollo",
+        "categoria":  "Fondos",
+        "precio":  28.00,
+        "disponible":  true
+    },
+    {
+        "id":  4,
+        "nombre":  "Ceviche clÃ¡sico",
+        "categoria":  "Marinos",
+        "precio":  42.00,
+        "disponible":  true
+    },
+    {
+        "id":  5,
+        "nombre":  "Causa limeÃ±a",
+        "categoria":  "Entradas",
+        "precio":  24.00,
+        "disponible":  true
+    }
+]

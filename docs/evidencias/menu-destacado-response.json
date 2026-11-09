@@ -1,0 +1,11 @@
+﻿{
+    "mensaje":  "Disfruta nuestros sabores",
+    "nombreDestacadoConfigurado":  "Lomo saltado",
+    "plato":  {
+                  "id":  1,
+                  "nombre":  "Lomo saltado",
+                  "categoria":  "Fondos",
+                  "precio":  38.00,
+                  "disponible":  true
+              }
+}

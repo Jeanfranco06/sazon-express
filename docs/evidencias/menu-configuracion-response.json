@@ -1,0 +1,7 @@
+﻿{
+    "nombre":  "Carta SazÃ³n Express",
+    "platoDestacado":  "Lomo saltado",
+    "mensaje":  "Disfruta nuestros sabores",
+    "mostrarDisponibles":  true,
+    "origen":  "Spring Cloud Config Server -\u003e Git: menu-service.yml"
+}

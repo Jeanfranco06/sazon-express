@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.sazonexpress</groupId>
+    <artifactId>sazon-express-parent</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>Sazón Express - Root Aggregator</name>
+    <description>Sistema de Microservicios con Spring Cloud Config Server - Caso Sazón Express</description>
+
+    <modules>
+        <module>config-server</module>
+        <module>menu-service</module>
+        <module>pedido-service</module>
+        <module>promocion-service</module>
+    </modules>
+</project>
